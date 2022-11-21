@@ -54,4 +54,19 @@
 # - 5 -> нет
 # - 0, 34 -> 3
 
-num = float(input('Введите число a: '))
+num1 = float(input('Введите число a: '))
+num2 = int(num1)
+if num1 == num2:
+    print('У этого числа отсутствует дробная часть')
+else:
+    print(int(num1*10) % 10)
+
+
+# num = float(input('Введите число a: '))
+# if int(num % 10 == 0):
+#     print('У этого числа отсутствует дробная часть')
+# else:
+#     print(int(num*10 % 10))
+
+# num = float(input('Введите число a: '))
+# print(int(num*10 % 10))
